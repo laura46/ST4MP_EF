@@ -33,7 +33,7 @@ namespace ST4MPCRM.Models
                 entity.HasKey(e => e.CustomerId);
 
                 entity.Property(e => e.CustomerId)
-                    .HasColumnName("CustomerID")
+                   // .HasAnnotation("CustomerID",null)
                     .ValueGeneratedNever();
 
                 entity.Property(e => e.EmailAddress).HasMaxLength(256);
@@ -52,7 +52,7 @@ namespace ST4MPCRM.Models
                 entity.HasKey(e => e.ShopId);
 
                 entity.Property(e => e.ShopId)
-                    .HasColumnName("ShopID")
+                    //.HasAnnotation("ShopID", null)
                     .ValueGeneratedNever();
 
                 entity.Property(e => e.City).HasMaxLength(60);
@@ -67,7 +67,7 @@ namespace ST4MPCRM.Models
 
                 entity.Property(e => e.WebsiteUrl)
                     .IsRequired()
-                    .HasColumnName("WebsiteURL")
+                    //.HasAnnotation("WebsiteURL",null)
                     .HasMaxLength(256);
             });
 
