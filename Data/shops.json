@@ -1,0 +1,93 @@
+[
+  {
+    "ShopID": 1,
+    "ShopName": "A Datum Corporation",
+    "PhoneNumber": "(847) 555-0100",
+    "WebsiteURL": "http://www.adatum.com",
+    "City": "Surrey"
+  },
+  {
+    "ShopID": 2,
+    "ShopName": "Contoso, Ltd.",
+    "PhoneNumber": "(360) 555-0100",
+    "WebsiteURL": "http://www.contoso.com",
+    "City": "Jolimont"
+  },
+  {
+    "ShopID": 3,
+    "ShopName": "Consolidated Messenger",
+    "PhoneNumber": "(415) 555-0100",
+    "WebsiteURL": "http://www.consolidatedmessenger.com",
+    "City": "West Mont"
+  },
+  {
+    "ShopID": 4,
+    "ShopName": "Fabrikam, Inc.",
+    "PhoneNumber": "(203) 555-0104",
+    "WebsiteURL": "http://www.fabrikam.com",
+    "City": "Eaglemont"
+  },
+  {
+    "ShopID": 5,
+    "ShopName": "Graphic Design Institute",
+    "PhoneNumber": "(406) 555-0105",
+    "WebsiteURL": "http://www.graphicdesigninstitute.com",
+    "City": "Willow"
+  },
+  {
+    "ShopID": 6,
+    "ShopName": "Humongous Insurance",
+    "PhoneNumber": "(423) 555-0105",
+    "WebsiteURL": "http://www.humongousinsurance.com",
+    "City": "Boxville"
+  },
+  {
+    "ShopID": 7,
+    "ShopName": "Litware, Inc.",
+    "PhoneNumber": "(209) 555-0108",
+    "WebsiteURL": "http://www.litwareinc.com",
+    "City": "Jackson"
+  },
+  {
+    "ShopID": 8,
+    "ShopName": "Lucerne Publishing",
+    "PhoneNumber": "(423) 555-0103",
+    "WebsiteURL": "http://www.lucernepublishing.com",
+    "City": "Westerfold"
+  },
+  {
+    "ShopID": 9,
+    "ShopName": "Nod Publishers",
+    "PhoneNumber": "(252) 555-0100",
+    "WebsiteURL": "http://www.nodpublishers.com",
+    "City": "Anderson"
+  },
+  {
+    "ShopID": 10,
+    "ShopName": "Northwind Electric Cars",
+    "PhoneNumber": "(201) 555-0105",
+    "WebsiteURL": "http://www.northwindelectriccars.com",
+    "City": "Arlington"
+  },
+  {
+    "ShopID": 11,
+    "ShopName": "Trey Research",
+    "PhoneNumber": "(605) 555-0103",
+    "WebsiteURL": "http://www.treyresearch.net",
+    "City": "Port Fairy"
+  },
+  {
+    "ShopID": 12,
+    "ShopName": "The Phone Company",
+    "PhoneNumber": "(218) 555-0105",
+    "WebsiteURL": "http://www.thephone-company.com",
+    "City": "Ferny Wood"
+  },
+  {
+    "ShopID": 13,
+    "ShopName": "Woodgrove Bank",
+    "PhoneNumber": "(415) 555-0103",
+    "WebsiteURL": "http://www.woodgrovebank.com",
+    "City": "Canterbury"
+  }
+]

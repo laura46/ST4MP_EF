@@ -24,18 +24,14 @@ namespace ST4MPCRM
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            var connection = Configuration.GetConnectionString("St4mpDatabase");
-            services.AddDbContext<ST4MPContext>(options => options.UseSqlServer(connection));
+            services.AddDbContext<ST4MPContext>(options => options.UseInMemoryDatabase(databaseName:"Customers"));
             services.AddControllersWithViews();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            using (var scope = app.ApplicationServices.GetRequiredService<IServiceScopeFactory>().CreateScope())
-            {
-                scope.ServiceProvider.GetRequiredService<DbContext>().Database.Migrate();
-            }
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

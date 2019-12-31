@@ -22,7 +22,7 @@ namespace ST4MPCRM.Models
         {
             if (!optionsBuilder.IsConfigured)
             { 
-                optionsBuilder.UseSqlServer("");
+                //optionsBuilder.UseSqlServer("");
             }
         }
 
