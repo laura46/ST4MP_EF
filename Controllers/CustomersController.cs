@@ -52,7 +52,7 @@ namespace ST4MPCRM.Controllers
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
-        [ValidateAntiForgeryToken]
+       // [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("CustomerId,FullName,UserName,PhoneNumber,EmailAddress")] Customers customers)
         {
             if (ModelState.IsValid)
@@ -84,7 +84,7 @@ namespace ST4MPCRM.Controllers
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
-        [ValidateAntiForgeryToken]
+       // [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("CustomerId,FullName,UserName,PhoneNumber,EmailAddress")] Customers customers)
         {
             if (id != customers.CustomerId)
@@ -135,7 +135,7 @@ namespace ST4MPCRM.Controllers
 
         // POST: Customers/Delete/5
         [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
+       // [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var customers = await _context.Customers.FindAsync(id);

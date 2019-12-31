@@ -52,7 +52,7 @@ namespace ST4MPCRM.Controllers
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
-        [ValidateAntiForgeryToken]
+       // [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("ShopId,ShopName,PhoneNumber,WebsiteUrl,City")] Shops shops)
         {
             if (ModelState.IsValid)
@@ -84,7 +84,7 @@ namespace ST4MPCRM.Controllers
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
-        [ValidateAntiForgeryToken]
+      //  [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("ShopId,ShopName,PhoneNumber,WebsiteUrl,City")] Shops shops)
         {
             if (id != shops.ShopId)
@@ -135,7 +135,7 @@ namespace ST4MPCRM.Controllers
 
         // POST: Shops/Delete/5
         [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
+       // [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var shops = await _context.Shops.FindAsync(id);

@@ -18,7 +18,7 @@
     "ST4MPCRM": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "https://heuristic-brahmagupta-d9f3ee.netlify.com/",
+      "applicationUrl": "http://localhost:5000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
